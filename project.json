@@ -1,0 +1,37 @@
+[
+  {
+    "module": "Test",
+    "submodules": [
+      {
+        "title": "Unit Testing",
+        "description": "Focuses on testing individual components or functions of the application to ensure they work as intended. This involves writing test cases for each function, verifying that the output matches the expected results, and identifying any bugs or issues at the earliest stage of development. Unit tests are crucial for maintaining code quality and facilitating easier refactoring.",
+        "selected": true
+      },
+      {
+        "title": "Integration Testing",
+        "description": "Involves testing the interaction between different modules or services within the application. This ensures that the integrated components work together as expected. Integration tests help identify issues that may arise when combining different parts of the application, such as data flow problems or interface mismatches. This type of testing is essential for validating the overall functionality of the application.",
+        "selected": true
+      },
+      {
+        "title": "Functional Testing",
+        "description": "Verifies that the application behaves according to the specified requirements. This includes testing user interactions, workflows, and business logic to ensure that all features function correctly. Functional tests are typically performed from the end-user's perspective, simulating real-world usage scenarios to validate that the application meets its intended purpose.",
+        "selected": true
+      },
+      {
+        "title": "Performance Testing",
+        "description": "Assesses the application's responsiveness, stability, and scalability under various load conditions. This includes testing how the application performs under normal and peak usage scenarios, identifying bottlenecks, and ensuring that it can handle the expected number of users without degradation in performance. Performance testing is critical for ensuring a smooth user experience, especially for high-traffic applications.",
+        "selected": true
+      },
+      {
+        "title": "User Acceptance Testing (UAT)",
+        "description": "Conducted by end-users to validate that the application meets their needs and requirements before it goes live. UAT focuses on the usability and functionality of the application from the user's perspective, ensuring that it aligns with their expectations. Feedback from UAT is invaluable for making final adjustments and ensuring user satisfaction.",
+        "selected": true
+      },
+      {
+        "title": "Regression Testing",
+        "description": "Involves re-running previously completed tests to ensure that new code changes have not adversely affected existing functionality. This is particularly important after updates or bug fixes, as it helps maintain the integrity of the application over time. Regression testing ensures that the application continues to perform as expected after modifications.",
+        "selected": true
+      }
+    ]
+  }
+]
